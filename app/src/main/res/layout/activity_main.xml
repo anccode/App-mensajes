@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="987342312"
+                    android:inputType="phone"
+                    android:id="@+id/Numero"
+                    />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="asdsadas"
+                    android:inputType="text"
+                    android:id="@+id/Mensaje"
+                    />
+                <Button
+                    android:id="@+id/btnMSM"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SMS"/>
+        </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
